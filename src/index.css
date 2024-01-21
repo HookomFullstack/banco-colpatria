@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+#logo-scotibank-colpatria-red path{fill:#ec111a;stroke:none}
+#symbol-scotibank-colpatria-red path{fill:#ec111a;stroke:none}
+
+@font-face{
+  font-family:'Scotia Light';
+  font-style:normal;
+  font-weight:400;
+  src:
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Lt.eot?#iefix) format('embedded-opentype'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Lt.woff2) format('woff2'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Lt.woff) format('woff'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Lt.ttf) format('truetype'),
+      url('https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Lt.svg#Scotia Light') format('svg')
+}
+
+@font-face{
+  font-family:'Scotia Regular';
+  font-style:normal;
+  font-weight:400;
+  src:
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Rg.eot?#iefix) format('embedded-opentype'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Rg.woff2) format('woff2'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Rg.woff) format('woff'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Rg.ttf) format('truetype'),
+      url('https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Rg.svg#Scotia Regular') format('svg')
+}
+
+@font-face{
+  font-family:'Scotia Bold';
+  font-style:normal;
+  font-weight:400;
+  src:
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Bd.eot?#iefix) format('embedded-opentype'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Bd.woff2) format('woff2'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Bd.woff) format('woff'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Bd.ttf) format('truetype'),
+      url('https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Bd.svg#Scotia Bold') format('svg')
+}
+
+@font-face{
+  font-family:'Scotia Headline';
+  font-style:normal;
+  font-weight:400;
+  src:
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Headline.eot?#iefix) format('embedded-opentype'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Headline.woff2) format('woff2'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Headline.woff) format('woff'),
+      url(https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Headline.ttf) format('truetype'),
+      url('https://cdn.agilitycms.com/scotiabank-colombia/canvas/fonts/Scotia_W_Headline.svg#Scotia Headline') format('svg')
+}
+
+.scotiaLight{
+  font-family: 'Scotia Light';
+}
+
+.scotiaRegular{
+  font-family: 'Scotia Regular';
+}
+
+.scotiaBold{
+  font-family: 'Scotia Bold';
+}
+
+.scotiaHeadline {
+  font-family: 'Scotia Headline';
+}
+
+input {
+  outline: none;
+}
+
+
+.b {
+  stroke-linecap: round;
+}
+
+.b, .c {
+  fill: none;
+  stroke: #333;
+  stroke-miterlimit: 1;
+  stroke-width: 7px;
+}
+
+.d {
+  fill: #333;
+}
+
+.closeEyeIcon {
+  fill: none;
+  stroke: #333;
+  stroke-miterlimit: 1;
+  stroke-width: 7px;
+}
+.lockIcon {
+  fill: #333;
+}
+
+.eye1 {
+  fill: #333;
+}
+.eye2{
+  fill: none;
+  stroke: #333;
+  stroke-miterlimit: 1;
+  stroke-width: 7px;
+}
+
+.uuid-d809064f-cb39-4ceb-9705-be5f11e8ccea {
+  stroke-linecap: round;
+}
+
+.uuid-d809064f-cb39-4ceb-9705-be5f11e8ccea, .uuid-14705219-6bbe-4038-a85d-a5be75755f1a {
+  fill: none;
+  stroke: #333;
+  stroke-miterlimit: 1;
+  stroke-width: 7px;
+}
+
+.uuid-db80d278-a030-4ccc-b0d7-156b43dc3e32 {
+  fill: #333;
+}
+
+.first-meaningful__spinner svg {
+  height: 72px;
+  stroke-width: 1.66667;
+  width: 72px;
+  color: #333;
+  display: inline-block;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin: 30px;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.spiner-rotate{
+    -webkit-animation: .5s rotate linear infinite;
+    animation: .5s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+
+
+.especialInput > input{
+  width: 60px;
+  height: 60px;
+  border: 0px;
+  border: 3px solid #3b3b3b;
+  outline: none;
+  margin: 1px;
+  text-align:center;
+  margin:0 2px;
+  font-size:20px;
+}
